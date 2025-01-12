@@ -1,0 +1,771 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('janko-ferlic-sfL_QOnmy00-unsplash.jpg'); /* Replace with your actual image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
+    color: #fff; /* White text for better contrast */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    height: 50px; /* Adjust as needed */
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search-menu input {
+    padding: 8px;
+    border: 1px solid #fff; /* White border for contrast */
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #000; /* Black text for input */
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    
+    padding: 100px 0; /* Adjust padding for vertical spacing */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.hero {
+    display: flex; /* Use flexbox for easier layout */
+    
+    justify-content: space-between; /* Space content evenly */
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+/* cheak */
+.content-wrapper {
+    position: relative;
+    top: -150vh;/* Initially position the content off-screen */
+    transition: top 0.5s ease; /* Add a smooth transition effect */
+}
+
+
+  .image-container {
+    flex: 1; /* Allow the image to take up available space */
+    max-width: 500px; /* Set a maximum width for responsiveness */
+    margin-right: 50px; /* Add margin for spacing */
+  }
+  
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; /* Ensure image covers the full container */
+  }
+  
+  .content {
+    flex: 1; /* Allow the content to take up available space */
+  }
+  
+  .content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+
+
+
+  /* for 2  */
+
+
+  .hero {
+    display: flex; /* Use flexbox for easier layout */
+    
+    justify-content: space-between; /* Space content evenly */
+    align-items: center; /* Center vertically */
+    padding: 50px; /* Adjust padding as needed */
+     
+}
+
+.quote-container {
+    flex: 1; /* Allow the quote container to take up available space */
+    max-width: 500px; /* Set a maximum width for responsiveness */
+    margin-right: 50px; /* Add margin for spacing */
+}
+
+.quote-container p {
+    margin: 5px 0;
+}
+
+.image-container {
+    flex: 1; /* Allow the image container to take up available space */
+    max-width: 300px; /* Adjust width as needed */
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; /* Optional: Add rounded corners to the image */
+}
+
+.branding {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666; 
+}
+
+
+
+/* 3*/
+
+.course-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .course-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-card {
+    position: relative; /* For positioning the content overlay */
+    width: 30%; /* Adjust width as needed */
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .course-content {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #fff; 
+  }
+  
+  .course-content h3, .course-content h4, .course-content p {
+    margin: 5px 0;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .status .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+
+
+  /* 4 */
+  .course-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(230, 218, 218)
+  }
+  
+  .course-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-card {
+    position: relative;
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .course-card:nth-child(1) {
+    background-image: url('Scotch\ Rite\ masonry\ illustrated\ _\ the\ complete\ ritual\ of\ the\ ancient\ and\ accepted\ Scottish\ Rite\ profusely\ illustrated\ _\ Blanchard\,\ Jonathan\,\ 1811-1892\ _\ Free\ Download\,\ Borrow\,\ and\ Streaming\ _\ Internet\ Archive.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .course-card:nth-child(2) {
+    background-image: url('Scotch\ Rite\ masonry\ illustrated\ _\ the\ complete\ ritual\ of\ the\ ancient\ and\ accepted\ Scottish\ Rite\ profusely\ illustrated\ _\ Blanchard\,\ Jonathan\,\ 1811-1892\ _\ Free\ Download\,\ Borrow\,\ and\ Streaming\ _\ Internet\ Archive.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .course-card:nth-child(3) {
+    background-image: url('Scotch\ Rite\ masonry\ illustrated\ _\ the\ complete\ ritual\ of\ the\ ancient\ and\ accepted\ Scottish\ Rite\ profusely\ illustrated\ _\ Blanchard\,\ Jonathan\,\ 1811-1892\ _\ Free\ Download\,\ Borrow\,\ and\ Streaming\ _\ Internet\ Archive.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .course-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    text-align: center; 
+  }
+  
+ /* 5 */
+
+
+ .hero {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line */
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .content-container {
+    flex: 1; /* Allow the content to take up available space */
+    max-width: 500px; /* Set a maximum width */
+    margin-right: 50px; /* Add margin between content and image */
+  }
+  
+  .image-container {
+    flex: 1; /* Allow the image to take up available space */
+    max-width: 500px; /* Set a maximum width */
+  }
+  
+  .image-container img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .mindfulness-steps {
+    flex: 1; /* Allow the steps to take up available space */
+    max-width: 500px; /* Set a maximum width */
+    margin-top: 30px;
+  }
+  
+  /* Content Styling */
+  .content-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    /* ... your button styles ... */
+  }
+  
+  .mindfulness-steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .mindfulness-steps ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mindfulness-steps li {
+    margin-bottom: 15px;
+  }
+  
+  .mindfulness-steps li:before {
+    content: "\2022"; /* Bullet point */
+    margin-right: 10px;
+  }
+  
+  /* Optional: Add a background color to the section */
+  .hero {
+    background-color: #ebe3e7de; /* Light gray background */
+  }
+
+
+/* 6 */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0; 
+  }
+  
+  .text-container {
+    flex: 1; /* Allow the text to take up available space */
+  }
+  
+  .text-container h1 {
+    font-size: 3rem;
+    margin: 0; 
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    margin: 0; 
+  }
+  
+  .button {
+    display: inline-flex; /* Use flexbox for better alignment */
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .arrow {
+    margin-right: 5px; 
+  }
+
+
+/* 7 */
+.book-recommendations {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .recommendation-card {
+    position: relative; /* For positioning the content overlay */
+    width: 30%; 
+  }
+  
+  .recommendation-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(21, 13, 13, 0.8); /* Semi-transparent white background */
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #afa8a8;
+    color: #1a1010;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+
+  /* 8 */
+  .book-recommendations {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .recommendation-card {
+    position: relative; /* For positioning the content overlay */
+    width: 30%; 
+  }
+  
+  .recommendation-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(59, 53, 53, 0.8); /* Semi-transparent white background */
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  /* 9 */
+  .hero {
+    display: flex;
+    justify-content: space-between; /* Space columns evenly */
+    padding: 50px 0; 
+    font-family: serif; /* Use a serif font (e.g., Times New Roman, Georgia) */
+    
+  }
+  
+  .left-column, .right-column {
+    flex: 1; /* Allow columns to share space equally */
+  }
+  
+  .left-column h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  
+  .left-column p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .right-column h1 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #080606; /* Burgundy color */
+  }
+  
+  .right-column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .right-column p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold; /* Make highlighted words bold */
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #877474;
+    color: #d2bdbd;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  /* 10 */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #f4e7e7; /* Light gray background */
+    text-emphasis-color: black;
+    color: #000;
+    background-color: #fafafa;
+  }
+  
+  .content-container {
+    flex: 1; /* Allow the content to take up available space */
+    max-width: 500px; /* Set a maximum width */
+    margin-right: 50px; /* Add margin between content and image */
+  }
+  
+  .content-container h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  
+  .content-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold; /* Make highlighted words bold */
+  }
+  
+  .exercise-options {
+    flex: 1; /* Allow the exercise options to take up available space */
+    display: flex;
+    flex-direction: column; /* Arrange options vertically */
+    justify-content: space-between; /* Space options evenly */
+  }
+  
+  .exercise-option {
+    margin-bottom: 30px;
+  }
+  
+  .exercise-option h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .exercise-option p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+/* 11 */
+.podcast-list {
+    margin-bottom: 30px;
+    background-color: #f0f0f0;
+    color: black
+  }
+  
+  .podcast-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  .podcast-info {
+    margin-bottom: 10px;
+  }
+  
+  .podcast-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .podcast-info p {
+    font-size: 0.9rem;
+    color: #ebdddd; /* Gray color for the description */
+  }
+  
+  .podcast-logo {
+    float: right; /* Position the logo to the right */
+  }
+  
+  .podcast-logo img {
+    width: 50px; /* Adjust the logo size as needed */
+  }
+  .related-topics {
+    text-align: center;
+    padding: 20px 0; 
+    color: #1a1010;
+    background: white;
+  }
+  
+  .related-topics h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .related-topics span {
+    color: #999; /* Gray color for the "topics" text */
+  }
+  
+  .related-topics ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  .related-topics li {
+    margin-bottom: 10px;
+  }
+
+
+
+  /* footer */
+  .site-footer {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .footer-column h5 {
+    color: #fff; /* White heading color */
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .harvard-logo img {
+    max-width: 150px; /* Adjust logo size as needed */
+    margin-bottom: 15px;
+  }
+  
+  .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media li a {
+    color: #fff; /* White icon color */
+  }
+  
+  /* Add font awesome icons */
+  @import url('kai_bookpromo_01.jpg');
+     
+
+
+
+
+  /* footer */
+  .site-footer {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo-container {
+    margin-right: 20px; 
+}
+
+.logo-container img {
+    height: 30px; /* Adjust as needed */
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.social-media li {
+    margin: 0 5px; 
+}
+
+.social-media li a {
+    color: #fff; 
+}
+
+.social-media li img {
+    width: 20px; /* Adjust as needed */
+}
+
+
+/* resposnsivee */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line on smaller screens */
+    justify-content: space-between; 
+    align-items: center; 
+}
